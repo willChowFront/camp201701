@@ -1,0 +1,371 @@
+/**
+ * 首页css
+ * 赵凯康
+ */
+.header {
+  height: 158px;
+  background: url('./img/headerBg.jpg') repeat-x;
+}
+
+.header .logo {
+  width: 1003px;
+  margin: 0 auto;
+  height: 110px;
+  background: url('./img/logo.jpg') no-repeat 0 0;
+}
+
+.header .logo span , .header .logo a {
+  float: right;
+  color: #626262;
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.header .logo a:hover {
+  color: #0170c2
+ }
+
+.header .nav {
+  background: url('./img/navBg.jpg') repeat-x;
+}
+
+.header .nav ul {
+  width: 1003px;
+  height: 48px;
+  margin: 0 auto;
+  margin-bottom: 1px;
+}
+
+ .header .nav li {
+  float: left;
+  width: 123px;
+  height: 47px;
+  line-height: 47px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  background: url('./img/nav-link.jpg') no-repeat right center;
+}
+
+.header .nav li:hover a{
+  background-color: #0b7fe2;
+  text-decoration: none;
+}
+
+.header .nav li a {
+  display: block;
+  color: #fff;
+}
+
+.content {
+  background-color: #f8f8f8;
+}
+
+.content .slide {
+  width: 1003px;
+  height: 352px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.content .slide .bd{
+  position: relative;
+  height: 100%;
+  z-index: 0;
+}
+
+.content .slide .hd {
+  position: absolute;
+  right: 24px;
+  bottom: 10px;
+  height: 2px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.content .slide .bd img {
+  width: 100%;
+ height: 352px;
+ display: block;
+}
+
+.content .slide .hd ul li {
+  float: left;
+  width: 28px;
+  height: 2px;
+  line-height: 2px;
+  margin-left: 5px;
+  color: #f4f4f4;
+  text-align: center;
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.content .slide .hd li.on {
+  background:#fff100;
+  color:#fff100;
+}
+
+.notification {
+  width: 1003px;
+  margin: 20px auto;
+}
+
+.notification .left-info {
+  float: left;
+  width: 693px;
+  height: 275px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+}
+
+.head-title {
+  width: 96%;
+  height: 36px;
+  padding-top: 7px;
+  border-bottom: 1px solid #959595;
+  position: relative;
+  margin: 0 auto;
+}
+
+.head-title h1 {
+  padding-left: 30px;
+  line-height: 20px;
+  color: #515151;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.head-title p {
+  padding-left: 30px;
+  line-height: 12px;
+  font-family: Arial;
+  color: #515151;
+  font-size: 8px;
+}
+
+.head-title em {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 43px;
+  color: #0170c2;
+  font: 36px/43px Arial;
+  font-weight: bold;
+}
+
+.head-title a {
+  position: absolute;
+  width: 33px;
+  height: 5px;
+  right: 5px;
+  top: 20px;
+}
+
+.noti-list {
+  width: 96%;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.noti-list li {
+  height: 29px;
+  line-height: 29px;
+  border-bottom: 1px dashed #d2d2d2;
+  background: url('./img/square.jpg') no-repeat 6px center;
+  padding-left: 20px;
+  font-size: 12px;
+}
+
+.noti-list li span {
+   float: right;
+   color: #7d7d7d;
+   font-family: "SimSun";
+}
+
+.noti-list li a {
+  color: #000;
+}
+
+.noti-list li a:hover {
+  color: #0170c2;
+}
+
+.notification .right-info {
+  float: right;
+  width: 292px;
+  height: 275px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+}
+
+.detail img {
+  display: block;
+  width: 273px;
+  height: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 11px;
+}
+
+.detail h1 {
+  color: #434343;
+  font-weight: bold;
+  line-height: 32px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.detail p {
+  font-size: 12px;
+  line-height: 24px;
+  color: #626262;
+  padding-left: 10px;
+}
+
+.school-introduction {
+  width: 1003px;
+  margin: 0 auto;
+}
+
+.school-introduction .streams {
+  float: left;
+  width: 338px;
+  margin-right: 15px;
+  display: inline;
+  height: 275px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+}
+
+.discipline {
+  float: left;
+  width: 338px;
+  height: 275px;
+  background: #fff;
+  border: 1px solid #dcdcdc;
+}
+
+.major-intro {
+  width: 96%;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.major {
+  padding-left: 135px;
+  height: 90px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.major img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 120px;
+  height: 90px;
+}
+
+.major h1  {
+  height: 30px;
+  line-height: 30px;
+  color: #0170c2;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+}
+
+.major p {
+  line-height: 24px;
+  font-size: 12px;
+}
+
+.list {
+  width: 96%;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list li {
+  float: left;
+  width: 49%;
+  height: 29px;
+  line-height: 29px;
+  border-bottom: 1px dashed #a6bbd4;
+}
+
+.list li p {
+  background: url('./img/square-blue.jpg') no-repeat 6px center;
+  padding-left: 20px;
+}
+
+.list li p a {
+  color: #479bcf;
+  font-size: 12px;
+}
+
+.teacher {
+  float: right;
+  width: 292px;
+  height: 275px;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+}
+
+.major-list {
+  width: 96%;
+  padding-top: 10px;
+}
+
+.major-list img {
+  display: block;
+  width: 275px;
+  height: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.major-list ul {
+  padding-left: 2px;
+  padding-top: 1px;
+}
+
+.major-list ul li {
+  float: left;
+  width: 137px;
+  margin-right: 1px;
+  height: 39px;
+  text-align: center;
+  margin-bottom: 1px;
+  background: #a0a0a0;
+  color: #fff;
+  font: 14px/39px bold;
+  display: inline;
+}
+
+.major-list ul li a {
+  color: #fff;
+}
+
+.footer {
+  background: #313131;
+}
+
+.footer ul {
+  width: 1003px;
+  height: 64px;
+  padding-top: 20px;
+  margin: 0 auto;
+  background: url('./img/footerBg.jpg') no-repeat right center;
+}
+
+.footer ul li {
+  line-height: 24px;
+  color: #fff;
+  font-size: 12px;
+}
