@@ -21,13 +21,32 @@
   width: 100px;
 }
 
-.total a:hover {
+.total:hover a{
   background-color: #E36A5D;
   color: #E7E7DB;
+  text-decoration: none;
 }
 
-.total a:hover {
-  text-decoration: none;
+.total i{
+  position: absolute;
+  left: 80px;
+  top: 17px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #E36A5D;
+}
+
+.total:hover i {
+  position: absolute;
+  left: 80px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #E7E7DB;
 }
 
 .sub {
