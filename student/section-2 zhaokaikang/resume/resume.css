@@ -1,6 +1,6 @@
 body {
 	width: 800px;
-	margin: 80px auto; 
+	margin: 80px auto;
 }
 
 header h1{
@@ -48,7 +48,7 @@ main > div {
 
 .project , .education{
 	text-align: right;
-	margin-bottom: 20px; 
+	margin-bottom: 20px;
 }
 
 .internship{
@@ -89,4 +89,35 @@ main > div {
 
 .skills {
 	margin-top: 30px;
+}
+
+.skills ul li {
+	position: relative;
+	height: 30px;
+	width: 340px;
+}
+
+.skills ul li em {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+.skills .outer {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -5px;
+	height: 10px;
+	width: 200px;
+	background-color: #BABABD
+}
+
+.skills .inner {
+	position: absolute;
+	left: 0;
+	top:0;
+	height: 10px;
+	background-color: #7e7e80;
 }
