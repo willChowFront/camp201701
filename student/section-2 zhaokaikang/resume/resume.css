@@ -28,8 +28,13 @@ header em {
 	/*letter-spacing: 3px;*/
 }
 
-main {
-
+header img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-bottom: 25px;
 }
 
 main > div {
@@ -91,6 +96,10 @@ main > div {
 	margin-top: 30px;
 }
 
+.skills ul {
+	margin-top: 20px;
+}
+
 .skills ul li {
 	position: relative;
 	height: 30px;
@@ -101,7 +110,8 @@ main > div {
 	float: left;
 	height: 30px;
 	line-height: 30px;
-	font-size: 18px;
+	font-size: 14px;
+	color: #7e7e80;
 }
 
 .skills .outer {
@@ -120,4 +130,22 @@ main > div {
 	top:0;
 	height: 10px;
 	background-color: #7e7e80;
+}
+
+.about-me {
+	margin-top: 20px;
+}
+
+.about-me h3 {
+	margin-bottom: 20px;
+}
+
+.about-me p {
+	font-size: 14px;
+	color: #7e7e80;
+	padding: 5px 0;
+}
+
+.about-me p a {
+	color: #7e7e80;
 }
