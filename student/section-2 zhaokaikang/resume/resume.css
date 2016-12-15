@@ -39,16 +39,54 @@ main > div {
 .left-info {
 	width: 381px;
 	padding-right: 16px;
-	height: 800px;
 	border-right: 3px solid #d3d3d5;
 }
 
 .left-info h3{
-	text-align: right;
 	font-size: 22px;
 }
 
+.project , .education{
+	text-align: right;
+	margin-bottom: 20px; 
+}
+
+.internship{
+	text-align: left;
+}
+
 .right-info {
-	width: 400px;
+	width: 384px;
 	height: 800px;
+	padding-left: 16px;
+}
+
+.right-info h3 {
+	font-size: 22px;
+}
+
+.time {
+	color: #7e7e80;
+	font-style: italic;
+	font-size: 14px;
+	padding: 20px 0;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.position {
+	color: #7e7e80;
+	font-size: 14px;
+}
+
+.brief {
+	color: #7e7e80;
+	font-size: 14px;
+}
+
+.skills {
+	margin-top: 30px;
 }
