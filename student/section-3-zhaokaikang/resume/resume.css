@@ -1,0 +1,330 @@
+@media screen
+	and (min-device-width: 800px) {
+		body {
+			width: 800px;
+			margin: 80px auto;
+			font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+		}
+
+		header h1{
+			width: 400px;
+			height: 65px;
+			margin: 0 auto;
+			font-size: 35px;
+			font-weight: normal;
+			line-height: 65px;
+			text-align: center;
+			border: 2px solid #727274;
+			border-radius: 4px;
+			font-family: STSong, "华文宋体", MingLiU, "細明體";
+			/*letter-spacing: 10px;*/
+		}
+
+		header em {
+			display: block;
+			width: 404px;
+			height: 40px;
+			margin: 0 auto;
+			font-size: 16px;
+			text-align: center;
+			line-height: 40px;
+			color: #7b7b7d;
+			/*letter-spacing: 3px;*/
+		}
+
+		header img {
+			display: block;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+			border-radius: 50%;
+			margin-bottom: 25px;
+		}
+
+		main > div {
+			float: left;
+		}
+
+		.left-info {
+			width: 381px;
+			padding-right: 16px;
+			border-right: 3px solid #d3d3d5;
+		}
+
+		.left-info h3{
+			font-size: 22px;
+		}
+
+		.project{
+			text-align: right;
+			margin-bottom: 20px;
+		}
+
+		.internship, .education{
+			text-align: left;
+			margin-bottom: 20px;
+		}
+
+		.right-info {
+			width: 384px;
+			height: 800px;
+			padding-left: 16px;
+		}
+
+		.right-info h3 {
+			font-size: 22px;
+		}
+
+		.time {
+			color: #7e7e80;
+			font-style: italic;
+			font-size: 14px;
+			padding: 20px 0;
+		}
+
+		.name {
+			font-weight: bold;
+			font-size: 18px;
+			font-family:STKaiti, 华文楷体, KaiTi, "楷体";
+		}
+
+		.position {
+			color: #7e7e80;
+			font-size: 14px;
+		}
+
+		.brief {
+			color: #7e7e80;
+			font-size: 14px;
+		}
+
+		.skills {
+			margin-top: 30px;
+		}
+
+		.skills ul {
+			margin-top: 20px;
+		}
+
+		.skills ul li {
+			position: relative;
+			height: 30px;
+			width: 340px;
+		}
+
+		.skills ul li em {
+			float: left;
+			height: 30px;
+			line-height: 30px;
+			font-size: 14px;
+			color: #7e7e80;
+		}
+
+		.skills .outer {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -5px;
+			height: 10px;
+			width: 200px;
+			background-color: #BABABD
+		}
+
+		.skills .inner {
+			position: absolute;
+			left: 0;
+			top:0;
+			height: 10px;
+			background-color: #7e7e80;
+		}
+
+		.about-me {
+			margin-top: 20px;
+			text-align: right;
+		}
+
+		.about-me h3 {
+			margin-bottom: 20px;
+		}
+
+		.about-me p {
+			font-size: 14px;
+			color: #7e7e80;
+			padding: 5px 0;
+		}
+
+		.about-me p a {
+			color: #7e7e80;
+		}
+
+		.in-mobile {
+			display: none;
+		}
+}
+
+@media screen
+	and (max-device-width: 600px) {
+
+		html {
+			font-size: 20px;
+		}
+		body {
+			width: 100vw;
+			margin: 80px auto;
+			font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", sans-serif;
+		}
+
+		header h1{
+			width: 60vw;
+			height: 5rem;
+			margin: 0 auto;
+			font-size: 3rem;
+			font-weight: normal;
+			line-height: 5rem;
+			text-align: center;
+			border: 2px solid #727274;
+			border-radius: 4px;
+			font-family: STSong, "华文宋体", MingLiU, "細明體";
+			/*letter-spacing: 10px;*/
+		}
+
+		header em {
+			display: block;
+			width: 60vw;
+			height: 4rem;
+			margin: 0 auto;
+			font-size: 2rem;
+			text-align: center;
+			line-height: 4rem;
+			color: #7b7b7d;
+			/*letter-spacing: 3px;*/
+		}
+
+		header img {
+			display: block;
+			width: 20vw;
+			height: 20vw;
+			margin: 0 auto;
+			border-radius: 50%;
+			margin-bottom: 25px;
+		}
+
+		.left-info {
+			width: 100vw;
+		}
+
+		.left-info h3{
+			font-size: 2.5rem;
+			width: 100vw;
+			margin: 2rem auto;
+			text-align: center;
+		}
+
+		.project{
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+
+		.time {
+			color: #7e7e80;
+			font-style: italic;
+			font-size: 1rem;
+			padding: 3rem 0;
+		}
+
+		.name {
+			font-weight: bold;
+			font-size: 2.2rem;
+			font-family:STKaiti, 华文楷体, KaiTi, "楷体";
+		}
+
+		.position {
+			color: #7e7e80;
+			font-size: 1rem;
+		}
+
+		.brief {
+			color: #7e7e80;
+			font-size: 1rem;
+		}
+
+		.internship, .education{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.right-info {
+			
+		}
+
+		.right-info h3 {
+			font-size: 3rem;
+			margin-top: 2rem;
+		}
+
+		.in-web {
+			display: none;
+		}	
+
+		.about-me {
+			margin-top: 2rem;
+			text-align: center;
+		}
+
+		.about-me h3 {
+			margin-bottom: 2rem;
+		}
+
+		.about-me p {
+			font-size: 0.8rem;
+			color: #7e7e80;
+			padding: 0.4rem;
+		}
+
+		.about-me p a {
+			color: #7e7e80;
+		}
+
+		.skills {
+			margin-top: 30px;
+			text-align: center;
+		}
+
+		.skills ul {
+			margin: 20px auto;
+			width: 60vw;
+		}
+
+		.skills ul li {
+			position: relative;
+			height: 2rem;
+			/*width: 340px;*/
+		}
+
+		.skills ul li em {
+			float: left;
+			height: 2rem;
+			line-height: 2rem;
+			font-size: 1.5rem;
+			color: #7e7e80;
+		}
+
+		.skills .outer {
+			position: absolute;
+			right: 0;
+			top: 50%;
+			margin-top: -5px;
+			height: 1rem;
+			width: 200px;
+			background-color: #BABABD
+		}
+
+		.skills .inner {
+			position: absolute;
+			left: 0;
+			top:0;
+			height: 1rem;
+			background-color: #7e7e80;
+		}
+
+	}
