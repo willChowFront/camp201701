@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>练习1</title>
+</head>
+<body>
+  <input type="text" id="input"/>
+  <button id="cal">点击</button>
+  <label>结果:</label>
+  <output id="output"></output>
+  <script type="text/javascript">
+    var toCal = document.getElementById('cal')
+    var input = document.getElementById('input')
+    var output = document.getElementById('output')
+    toCal.addEventListener('click', function () {
+      var inputVal = input.value
+      var outputVal = getString(inputVal)
+      if (outputVal) {
+        output.value = outputVal
+      } else {
+        output.value = '格式异常'
+      }
+    }, false)
+    function getString(str) {
+      var newStr = str.replace('-', '')
+      while (true) {
+        if (newStr.indexOf('-') == -1) {
+          break;
+        } else {
+          newStr = newStr.replace('-', '')
+        }
+      }
+      if (newStr.length != 20) {
+        return false
+      } else {
+        return newStr.toUpperCase()
+      }
+    }
+  </script>
+</body>
+</html>

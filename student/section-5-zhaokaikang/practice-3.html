@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>练习3</title>
+</head>
+<body>
+  <button id="cal">点击</button>
+  <label>结果:</label>
+  <output id="output"></output>
+  <script type="text/javascript">
+    var toCal = document.getElementById('cal')
+    var input = document.getElementById('input')
+    var output = document.getElementById('output')
+    toCal.addEventListener('click', function () {
+      output.value = getDayObj()
+    }, false)
+    function getDayObj() {
+      var dayNums = isLeap(2017) ? 29 : 28
+      var dayToWeeks = [] , date
+      for (var i = 0; i < dayNums; i ++) {
+        let temp = {}
+        date = new Date(2017, 1, i+1)
+        if (date.getDay() == 3) {
+          temp.date = [2017, 2, i+1].join('/')
+          temp.daysBefore = (date.getTime() - Date.now()) / 86400000
+          if (temp.daysBefore < 0) {
+            temp.daysBefore = Math.floor(temp.daysBefore)
+          } else {
+            temp.daysBefore = Math.ceil(temp.daysBefore)
+          }
+          dayToWeeks.push(temp)
+        }
+      }
+      console.log(dayToWeeks)
+      return JSON.stringify(dayToWeeks)
+    }
+    function isLeap(year) {
+      return year%4 === 0 && year%100 !== 0 || year%400 === 0
+    }
+  </script>
+</body>
+</html>

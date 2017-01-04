@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>练习2</title>
+</head>
+<body>
+  <input type="text" id="input"/>
+  <button id="cal">点击</button>
+  <label>结果:</label>
+  <output id="output"></output>
+  <script type="text/javascript">
+    var toCal = document.getElementById('cal')
+    var input = document.getElementById('input')
+    var output = document.getElementById('output')
+    toCal.addEventListener('click', function () {
+      var inputVal = input.value
+      output.value = getString(inputVal)
+    }, false)
+    function getString(str) {
+      var arr = str.split(',')
+      var obj = {}
+      var newArr = []
+      arr.forEach(item => {
+        if (!obj[item]) {
+          obj[item] = item
+          newArr.push(item)
+        }
+      })
+      return newArr.join(',')
+    }
+  </script>
+</body>
+</html>
